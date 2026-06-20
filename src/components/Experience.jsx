@@ -11,7 +11,7 @@ const experiences = [
       "Worked on a client website project for Anany Pahal Foundation",
       "Used React.js to migrate static HTML pages into interactive component-based web applications",
       "Implemented 100% component-based architecture, improving code reusability and maintainability",
-      "Integrated the Razorpay API to facilitate secure online donations, enhancing operational efficiency and increasing expected fundraising impact by 50%.",
+      "Integrated the Razorpay APIs to facilitate secure online donations, enhancing operational efficiency and increasing expected fundraising impact by 50%.",
       "Enhanced website performance and security through testing and frontend optimization"
     ]
   },
