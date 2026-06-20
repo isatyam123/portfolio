@@ -75,10 +75,6 @@ npm run build
 * GitHub: https://github.com/isatyam123
 * Portfolio: https://portfolio-five-weld-3iw71vzfpb.vercel.app/
 
----
-
----
-
 ## 👨‍💻 Author
 
 **Satyam Kumar**  
