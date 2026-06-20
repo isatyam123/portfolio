@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%; /* zinc-950 */
+    --foreground: 0 0% 98%; /* zinc-50 */
+    --primary: 217.2 91.2% 59.8%; /* blue-500 */
+    --primary-foreground: 222.2 47.4% 11.2%; /* blue-950 */
+    --card: 240 10% 3.9%; /* zinc-950 */
+    --card-foreground: 0 0% 98%; /* zinc-50 */
+    --border: 240 3.7% 15.9%; /* zinc-800 */
+    --muted: 240 3.7% 15.9%; /* zinc-800 */
+    --muted-foreground: 240 5% 64.9%; /* zinc-400 */
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-50 font-sans antialiased selection:bg-blue-500/30;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
