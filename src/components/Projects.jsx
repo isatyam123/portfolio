@@ -92,7 +92,7 @@ export default function Projects() {
                 <ul className="text-sm text-zinc-400 space-y-2 mb-6">
                   {project.bullets.map((bullet, i) => (
                     <li key={i} className="leading-relaxed">
-                       <span dangerouslySetInnerHTML={{ __html: bullet.replace(/\d+%|15\+|500\+|30%|25%|60%|40%/g, match => `<strong class="text-zinc-200">${match}</strong>`).replace(/(C\+\+|MongoDB|Express\.js|React\.js|Node\.js|Socket\.io|Cloudinary|Fuse\.js|MATLAB|React|MVC|RESTful APIs|Mapbox|Tailwind CSS|TCP\/IP|Multithreading)/g, match => `<strong class="text-blue-100">${match}</strong>`) }} />
+                       <span dangerouslySetInnerHTML={{ __html: bullet.replace(/\d+%|\d+\+/g, match => `<strong class="text-zinc-200">${match}</strong>`).replace(/(C\+\+|MongoDB|Express\.js|React\.js|Node\.js|Socket\.IO|Cloudinary|Fuse\.js|MATLAB|React|MVC|RESTful APIs|Mapbox|Tailwind CSS|TCP\/IP|Multithreading|MERN|Ethernet|IPv4|TCP|UDP|TLS|DNS|Deep Packet Inspection|DPI)/g, match => `<strong class="text-blue-100">${match}</strong>`) }} />
                     </li>
                   ))}
                 </ul>

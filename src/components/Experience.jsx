@@ -23,7 +23,7 @@ const experiences = [
     bullets: [
       "Investigated the spectral properties and eigenvalue distributions of pentadiagonal doubly stochastic matrices using linear algebra, matrix theory, and numerical analysis for matrix orders n ≤ 6.",
       "Developed a scalable construction framework using convex combinations of permutation matrices varying with n, reducing the combinatorial search space from O(n!) to structured feasible subsets.",
-      "Implemented extensive MATLAB simulations to generate and analyze hundreds of thousands of matrices per n, computing full eigenvalue spectra and identifying rare boundary-breaking spectral cases."
+      "Implemented extensive C++/MATLAB simulations to generate and analyze hundreds of thousands of matrices per n, computing full eigenvalue spectra and identifying rare boundary-breaking spectral cases."
     ]
   }
 ];
