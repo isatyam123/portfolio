@@ -8,7 +8,7 @@ const projects = [
     tech: ["Node.js", "Express.js", "MongoDB", "EJS", "JavaScript", "Bootstrap", "Cloudinary", "Mapbox"],
     links: { live: "#", github: "#" },
     bullets: [
-      "Engineered a full-stack MVC accommodation platform with 15+ RESTful APIs, successfully handling comprehensive CRUD operations and data relationships for a database of 500+ listings.",
+      "Developed a full-stack MVC accommodation platform with 15+ RESTful APIs, successfully handling comprehensive CRUD operations and data relationships for a database of 500+ listings.",
       "Architected scalable MongoDB schemas to optimize query performance by 30% and implemented secure Express.js authentication workflows.",
       "Integrated Mapbox API for location visualization and responsive EJS/Bootstrap UIs, driving a 25% improvement in user engagement."
     ]
@@ -18,9 +18,9 @@ const projects = [
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.IO", "Cloudinary", "Tailwind CSS"],
     links: { live: "#", github: "#" },
     bullets: [
-      "Developed a full-stack MERN application with secure Node.js/Express RESTful APIs to facilitate seamless, role-based hostel issue reporting.",
-      "Implemented real-time bidirectional chat using Socket.io, reducing communication latency by 60% compared to traditional HTTP polling.",
-      "Integrated Cloudinary for cloud image storage and Fuse.js for fuzzy search, boosting overall data retrieval speeds by 40%."
+      "Built a full-stack MERN hostel complaint management platform with role-based authentication, complaint tracking, and admin workflows, supporting 500+ potential hostel residents and administrators.",
+      "Implemented real-time student-admin messaging using Socket.IO, enabling low-latency communication and reducing complaint resolution response time by approximately 60%.",
+      "Integrated Cloudinary for image-based complaint evidence and Fuse.js for fuzzy search, boosting overall data retrieval speeds by 40%."
     ]
   },
   {
